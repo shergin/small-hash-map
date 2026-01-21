@@ -1,0 +1,15 @@
+[package]
+name = "small_hash_map"
+version = "1.0.0"
+edition = "2021"
+authors = ["Valentin Shergin"]
+description = "A hash map optimized for small collections with automatic stack-to-heap transition"
+license = "MIT"
+repository = "https://github.com/shergin/small_hash_map"
+documentation = "https://docs.rs/small_hash_map"
+readme = "README.md"
+keywords = ["hashmap", "small", "stack", "inline", "adaptive"]
+categories = ["data-structures", "memory-management"]
+
+[dependencies]
+# No dependencies - uses std::collections::hash_map::RandomState as default hasher
