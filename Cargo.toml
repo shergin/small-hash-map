@@ -1,6 +1,6 @@
 [package]
 name = "small_hash_map"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
 authors = ["Valentin Shergin"]
 description = "A hash map optimized for small collections with automatic stack-to-heap transition"
